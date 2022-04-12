@@ -32,7 +32,8 @@ app.layout = html.Div([
                 html.Br(),
                 html.Li('Título do livro: Painéis interativos e aplicativos de dados com plotagem e traço'),
                 html.Li(['Github repositório: ',
-                        
+                        html.A('https://github.com/LeandroHerdy/Interactive-Dashboards-and-Data-Apps-with-Plotly-and-Dash',
+                            href='https://github.com/LeandroHerdy/Interactive-Dashboards-and-Data-Apps-with-Plotly-and-Dash')
                         ])
             ])                       
         ], label='Informações do Projeto')
